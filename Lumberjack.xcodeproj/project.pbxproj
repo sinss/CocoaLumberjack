@@ -1268,9 +1268,13 @@
 					};
 					19FF46011B8B4CF400B43179 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = C4G24T2TNJ;
+						DevelopmentTeamName = "SW168 LLC";
 					};
 					19FF460E1B8B4D1400B43179 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = C4G24T2TNJ;
+						DevelopmentTeamName = "SW168 LLC";
 						LastSwiftMigration = 0800;
 					};
 					55CCBEFE19BA679200957A39 = {
