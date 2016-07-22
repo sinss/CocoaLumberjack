@@ -10,7 +10,7 @@ import UIKit
 import CocoaLumberjack
 import CocoaLumberjackSwift
 
-let ddloglevel = DDLogLevel.Verbose
+let ddloglevel = DDLogLevel.verbose
 
 private func printSomething() {
     DDLogVerbose("Verbose");
@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		// Override point for customization after application launch.
         let formatter = Formatter()
         DDTTYLogger.sharedInstance().logFormatter = formatter
-        DDLog.addLogger(DDTTYLogger.sharedInstance())
+        DDLog.add(DDTTYLogger.sharedInstance())
         
         DDLogVerbose("Verbose");
         DDLogDebug("Debug");
